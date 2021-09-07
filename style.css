@@ -13,7 +13,7 @@ p {
     margin-top: 0;
 }
 
-.wrapper {
+.wrapper {    
     height: inherit;
     max-width: 1110px;
     margin: 0 auto;    
@@ -21,7 +21,7 @@ p {
 
 .header {
     background: #007765;
-    height: 84px;        
+    height: 84px;            
 }
 
 .header .wrapper {
@@ -117,6 +117,7 @@ p {
 }
 
 .quote__text {
+    max-width: 893px;
     color: #FFFFFF;
     font-family: Roboto;
     font-size: 48px;
@@ -124,7 +125,8 @@ p {
     font-weight: 500;
     line-height: 56px;    
     text-align: center;
-    padding: 15% 55px 15% 55px;
+    padding: 128px 55px;
+    margin: 0 auto;
 }
 
 .introdusing {
@@ -173,4 +175,77 @@ p {
     font-weight: 400;
     line-height: 37px;
     padding: 16px 55px 92px 55px;
+}
+
+.team {
+    background: #EEEEEE;
+    min-height: 845px;
+}
+
+.team__title {
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 75px;    
+    text-align: center;
+    padding: 48px 55px 56px 55px;
+    color: #007765;
+}
+
+.team__content {
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+
+.hero {
+    flex-basis: 30%;
+    padding: 0 10px;
+}
+
+.hero__foto {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.hero__name {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color: #007765;
+    text-align: center;    
+}
+
+.hero__specialisation {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 82px;
+    text-align: center;
+}
+
+.footer {
+    min-height: 176px;
+    background: #333333;
+}
+
+.footer__text {
+    max-width: 540px;
+    margin: 0 auto;
+    padding-top: 48px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;    
+    text-align: center;
 }
